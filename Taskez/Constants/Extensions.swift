@@ -20,6 +20,7 @@ extension Color {
     static let primary_app = Color("primary_app")
     static let secondary_app = Color("secondary_app")
     static let borderButton = Color("border_button")
+    static let segmentTextDisabled = Color("segment_text_disabled")
 }
 
 extension Font {

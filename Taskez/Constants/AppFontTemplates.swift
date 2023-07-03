@@ -44,7 +44,7 @@ struct AppFontTemplate {
                                     weight: .bold,
                                     lineSpacing: 24)
     static let button_s = FontTemplate(font: Font.custom(AppFont.interBold.rawValue, size: 14),
-                                    weight: .bold,
+                                       weight: .bold,
                                     lineSpacing: 24)
     static let tab = FontTemplate(font: Font.custom(AppFont.interSemiBold.rawValue, size: 32),
                                     weight: .bold,

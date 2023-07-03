@@ -23,22 +23,21 @@ struct Dashboard: View {
                         Spacer()
                     }
                     
-                    Picker("", selection: $selectedTab) {
-                        Image("chatIcon").tag(0)
-                                    Text("Second").tag(1)
-                                    Text("Third").tag(2)
-                                }
-                                .pickerStyle(SegmentedPickerStyle())
-                                
+                    HStack {
+                        SegmentPicker(selected: $selectedTab, dataSource: [ "Overview","Productivity"])
+                        Spacer()
+                    }
                     
-//                    List {
-//                        NavigationLink("Hello") {
-//                            Text("Hello")
-//                        }
-//
-//                    }
-//                    .scrollContentBackground(.hidden)
-//                    .padding(24)
+                    TabView(selection: $selectedTab) {
+                        Text("Overview")
+                            .foregroundColor(.colorful_5)
+                            .tag(0)
+                        Text("Productivity")
+                            .foregroundColor(.colorful_5)
+                            .tag(1)
+                    }
+                    .background(.clear)
+                    .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
                     Spacer()
                 }
             }

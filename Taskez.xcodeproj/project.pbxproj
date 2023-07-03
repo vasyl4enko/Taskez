@@ -24,6 +24,7 @@
 		11C54FC22A4AD5B900AB3775 /* AppFontTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C54FC12A4AD5B900AB3775 /* AppFontTemplates.swift */; };
 		11C54FC42A4ADBFF00AB3775 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C54FC32A4ADBFF00AB3775 /* Extensions.swift */; };
 		11C54FC72A4ADED300AB3775 /* OnboardingMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C54FC62A4ADED300AB3775 /* OnboardingMainView.swift */; };
+		11E966BE2A52F0A000ABC1C0 /* SegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E966BD2A52F0A000ABC1C0 /* SegmentPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		11C54FC12A4AD5B900AB3775 /* AppFontTemplates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFontTemplates.swift; sourceTree = "<group>"; };
 		11C54FC32A4ADBFF00AB3775 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		11C54FC62A4ADED300AB3775 /* OnboardingMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMainView.swift; sourceTree = "<group>"; };
+		11E966BD2A52F0A000ABC1C0 /* SegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				113652552A4EE2F1008005D8 /* TaskezButtonStyles.swift */,
+				11E966BD2A52F0A000ABC1C0 /* SegmentPicker.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				11C54FC72A4ADED300AB3775 /* OnboardingMainView.swift in Sources */,
 				1136525E2A4F2092008005D8 /* BacgroundView.swift in Sources */,
 				11C54FA32A4AC92800AB3775 /* ContentView.swift in Sources */,
+				11E966BE2A52F0A000ABC1C0 /* SegmentPicker.swift in Sources */,
 				11C54FA12A4AC92800AB3775 /* TaskezApp.swift in Sources */,
 				113652562A4EE2F1008005D8 /* TaskezButtonStyles.swift in Sources */,
 			);
@@ -382,6 +386,7 @@
 				INFOPLIST_FILE = Taskez/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -410,6 +415,7 @@
 				INFOPLIST_FILE = Taskez/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
